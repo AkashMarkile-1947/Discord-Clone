@@ -10,7 +10,7 @@ import Navbar from "./navbar";
 const Hero = () => {
     return (
         <div className='section bg-[#404eed] w-full z-0 relative overflow-hidden'>
-        <div className="hero">
+        <div className="hero relative max-w-[1400px] mx-auto">
             <Navbar />
             <img src={centerBg} className="centerbg overflow"/>
             <img src={leftBg} className="leftbg overflow"/>
