@@ -67,7 +67,16 @@ h2 {
 	font-size: calc(10px + 2vmin);
 	color: white;
 }
-
+.section-heading {
+	font-size: calc(18px + 1vw);
+	font-weight: 700;
+	margin-bottom: 1.5rem;
+	line-height: calc(22px + 2vw);
+}
+.section-text {
+	font-size: 16px;
+	line-height: 26px;
+}
 .App-link {
 	color: #61dafb;
 }
@@ -182,6 +191,12 @@ h2 {
 		justify-content: center;
 		align-items: center;
 	}
+	.section-heading {
+		word-wrap: break-word;
+	}
+	.section-text {
+		word-wrap: break-word;
+	}
 }
 @media screen and (min-width: 1050px) {
 	.hero {
@@ -206,5 +221,11 @@ h2 {
 	}
 	.btn-container {
 		display: block;
+	}
+	.section-info {
+		max-width: 380px;
+	}
+	.img-s {
+		max-width: 678px;
 	}
 }
