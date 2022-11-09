@@ -49,6 +49,9 @@ h2 {
 	font-size: 56px;
 	line-height: 53.2px;
 }
+.download-heading {
+	bottom: 6rem;
+}
 @layer components {
 	.btn-hero {
 		@apply px-10 py-3 rounded-[25px] text-xl mb-3 hover:shadow-2xl bg-white text-black;
@@ -227,5 +230,8 @@ h2 {
 	}
 	.img-s {
 		max-width: 678px;
+	}
+	.chillin-section {
+		max-width: 980px;
 	}
 }
