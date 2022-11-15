@@ -52,6 +52,40 @@ h2 {
 .download-heading {
 	bottom: 6rem;
 }
+.links {
+	display: flex;
+	padding-inline: 5rem;
+	width: 60%;
+	flex-wrap: wrap;
+	margin-inline: auto;
+	justify-content: space-between;
+	align-items:flex-start;
+	color: #fff;
+}
+.footer-footer {
+	margin: 0 auto;
+	padding-block: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+.footer-heading {
+	font-weight: 800;
+	width: 8ch;
+}
+.place {
+	margin-block: 1.5rem;
+}
+.footer-column {
+	line-height: 2rem;
+}
+.login-register-bg {
+	background: url(../assets/login_bg.svg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
 @layer components {
 	.btn-hero {
 		@apply px-10 py-3 rounded-[25px] text-xl mb-3 hover:shadow-2xl bg-white text-black;
@@ -153,6 +187,9 @@ h2 {
 	}
 	.btn-container {
 		margin-top: 2rem;
+	}
+	.footer-heading {
+		width: 10ch;
 	}
 }
 @media screen and (min-width: 981px) {

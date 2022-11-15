@@ -1,22 +1,12 @@
 import React from "react";
-import discordLogo from "../assets/discord_main_logo.svg";
-import Hero from "./landingpage/hero";
-import InviteOnly from "./landingpage/inviteonly";
-import Fandom from "./landingpage/fandom";
-import Hangingout from "./landingpage/hangingout";
-import Chilling from "./landingpage/reliabletech";
-import DownloadSection from "./landingpage/download";
+import {BrowserRouter} from "react-router-dom"
+import View from "./view";
 
 function App() {
   return (
-    <>
-      <Hero />
-      <InviteOnly />
-      <Hangingout />
-      <Fandom />
-      <Chilling />
-      <DownloadSection />
-    </>
+    <BrowserRouter>
+      <View />
+    </BrowserRouter>
   );
 }
 
